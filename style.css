@@ -4,8 +4,36 @@
     --primary: #1f1f1f;
     --ff-main: 'Zen Dots', sans-serif;
     --ff-secondary: 'Zen Maru Gothic', serif;
+
+    font-family: var(--ff-main);
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--primary);
+    padding: 3rem;
+}
+
+.hero {
+    height: calc(100vh - 6rem);
+    border: 3px yellow solid;
+    overflow: hidden;
+}
+
+.bg-text-container {
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-text {
+    color: white;
+    font-size: 2000px;
+    line-height: 75%;
 }
