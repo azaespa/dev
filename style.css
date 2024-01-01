@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&family=Zen+Maru+Gothic&display=swap');
+
+:root {
+    --primary: #1f1f1f;
+    --ff-main: 'Zen Dots', sans-serif;
+    --ff-secondary: 'Zen Maru Gothic', serif;
+}
+
+body {
+    background-color: var(--primary);
+}
